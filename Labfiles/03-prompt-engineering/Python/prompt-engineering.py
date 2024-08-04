@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from openai import AsyncAzureOpenAI
 
 # Set to True to print the full response from OpenAI for each call
-printFullResponse = False
+printFullResponse = True
 
 async def main(): 
         
